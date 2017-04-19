@@ -1,7 +1,25 @@
-body{
+*{
+  margin:0;/*para quitarle los bordes blancos de las esquinas*/
+}
 
+body{
+  background-color: #AA8239;
+}
+header{
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  text-align: center;
+  background-color: #A43741;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:#FFF;
+}
+
+#contenedor{
+  margin-top: 5%;
 }
 .fondito{
+  margin: 0 auto;
   background-color: #6c8c5c;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
   width: 620px;
